@@ -21,8 +21,10 @@
     const INTEGRER_MEDIA = true;
     const INTEGRER_IMAGES = true;
 
+    // Whitelist URL, supprimer les "//" au debut du lien si vous voulez ajouter
     const WHITELIST_URLS = [
-        /^https:\/\/files\.catbox\.moe\//,
+        // /^https:\/\/files\.catbox\.moe\//,
+        // /^https:\/\/litter\.catbox\.moe\//,
         /^https:\/\/i\.imgur\.com\//
     ];
 
