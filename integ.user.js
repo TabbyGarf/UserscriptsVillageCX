@@ -103,7 +103,7 @@
     function integrerMedia(container) {
         if (!INTEGRER_MEDIA) return;
         container.querySelectorAll('.rich-message a[href]').forEach(link => {
-            const match = link.href.match(/(https:\/\/(.+)(\.mp4|\.webm|\.mov|\.mkv|\.mp3|\.wav|\.ogg|\.aac|\.flac))/);
+            const match = link.href.match(/(https:\/\/(.+)(\.mp4|\.webm|\.mov|\.mkv|\.mp3|\.wav|\.ogg|\.aac|\.flac))$/);
             if (match && isWhitelisted(match[1])) {
                 let urlMedia = match[1];
                 let media;
