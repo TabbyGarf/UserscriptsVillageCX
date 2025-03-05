@@ -25,7 +25,8 @@
     const WHITELIST_URLS = [
         // /^https:\/\/files\.catbox\.moe\//,
         // /^https:\/\/litter\.catbox\.moe\//,
-        /^https:\/\/i\.imgur\.com\//
+        /^https:\/\/i\.imgur\.com\//,
+        /^https:\/\/image\.noelshack\.com\//
     ];
 
     function isWhitelisted(url) {
