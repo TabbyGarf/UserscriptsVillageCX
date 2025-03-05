@@ -26,7 +26,8 @@
         // /^https:\/\/files\.catbox\.moe\//,
         // /^https:\/\/litter\.catbox\.moe\//,
         /^https:\/\/i\.imgur\.com\//,
-        /^https:\/\/image\.noelshack\.com\//
+        /^https:\/\/image\.noelshack\.com\//,
+        /^https:\/\/risibank\.fr\//
     ];
 
     function isWhitelisted(url) {
