@@ -3,7 +3,7 @@
 // @namespace    http://tabbygarf.club
 // @version      v1
 // @description  Blacklist pour Village.cx
-// @author       TabbyGarf
+// @author       stay/TabbyGarf
 // @match        https://village.cx/village/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=village.cx
 // @grant        none
