@@ -5,7 +5,7 @@
 // @icon         https://tabbygarf.club/favicon.ico
 // @description  Active ou non les intégrations dans les topics de Village
 // @author       stay/TabbyGarf
-// @match        https://village.cx/village/*
+// @match        https://village.cx/*
 // @grant        none
 // ==/UserScript==
 
