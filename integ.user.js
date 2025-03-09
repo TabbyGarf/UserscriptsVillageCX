@@ -26,7 +26,7 @@
         // /^https:\/\/files\.catbox\.moe\//,
         // /^https:\/\/litter\.catbox\.moe\//,
         /^https:\/\/i\.imgur\.com\//,
-        /^https:\/\/image\.noelshack\.com\//,
+        /^https:\/\/*\.noelshack\.com\//,
         /^https:\/\/risibank\.fr\//
     ];
 
