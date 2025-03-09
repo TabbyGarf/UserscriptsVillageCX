@@ -6,6 +6,8 @@
 // @author       stay/TabbyGarf
 // @match        https://village.cx/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=village.cx
+// @downloadURL  https://github.com/TabbyGarf/UserscriptsVillageCX/raw/refs/heads/main/blacklist-stay.user.js
+// @updateURL    https://github.com/TabbyGarf/UserscriptsVillageCX/raw/refs/heads/main/blacklist-stay.user.js
 // @grant        none
 // ==/UserScript==
 
