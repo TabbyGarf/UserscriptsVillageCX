@@ -6,6 +6,8 @@
 // @description  Active ou non les intégrations dans les topics de Village
 // @author       stay/TabbyGarf
 // @match        https://village.cx/*
+// @downloadURL  https://github.com/TabbyGarf/UserscriptsVillageCX/raw/refs/heads/main/ingerateurMedia-stay.user.js
+// @updateURL    https://github.com/TabbyGarf/UserscriptsVillageCX/raw/refs/heads/main/ingerateurMedia-stay.user.js
 // @grant        none
 // ==/UserScript==
 
