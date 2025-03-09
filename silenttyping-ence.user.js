@@ -6,6 +6,8 @@
 // @match        https://village.cx/*
 // @run-at       document-start
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=village.cx
+// @downloadURL  https://github.com/TabbyGarf/UserscriptsVillageCX/raw/refs/heads/main/silenttyping-ence.user.js
+// @updateURL    https://github.com/TabbyGarf/UserscriptsVillageCX/raw/refs/heads/main/silenttyping-ence.user.js
 // @grant        none
 // ==/UserScript==
 
