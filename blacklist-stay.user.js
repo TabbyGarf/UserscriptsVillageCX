@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Blacklist pour Village.cx
 // @namespace    http://tabbygarf.club
-// @version      v1
+// @version      v2
 // @description  Blacklist pour Village.cx
 // @author       stay/TabbyGarf
 // @match        https://village.cx/*
@@ -19,7 +19,7 @@
     //le dernier pseudo ne dois jamais avoir une virgule apres ses guillemets
     //seulement ajouter une virgule si on ajoute un pseudo a la fin.
     //La blacklist est insensible a la casse donc "PsEudo" et "pseudo" marchent de la meme maniere.
-    const blacklist = ["PSEUDO_AADEQSADCXW_1"].map(name => name.toLowerCase());
+    const blacklist = ["PSEUDO_EEERRREFSDCDX"].map(name => name.toLowerCase());
 
 
     function hideMessages() {
@@ -28,7 +28,7 @@
             if (pseudoElement) {
                 const pseudo = pseudoElement.innerText.trim().toLowerCase();
                 if (blacklist.includes(pseudo)) {
-                    const parentContainer = msg.closest('div.ease-linear');
+                    const parentContainer = msg.closest('div.message');
                     if (parentContainer) {
                         parentContainer.style.display = 'none';
                     }
