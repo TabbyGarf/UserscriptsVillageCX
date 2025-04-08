@@ -22,7 +22,7 @@
     //seulement ajouter une virgule si on ajoute un pseudo a la fin.
     //La blacklist est insensible a la casse donc "PsEudo" et "pseudo" marchent de la meme maniere.
 
-    const blacklist = ["TEST"].map(name => name.toLowerCase());
+    const blacklist = ["pseudotest@@@@@"].map(name => name.toLowerCase());
 
     function hideMessages() {
         document.querySelectorAll('.message').forEach(msg => {
