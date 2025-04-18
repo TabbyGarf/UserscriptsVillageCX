@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Smileys JVC pour V.CX
-// @version      1.1.0
+// @version      1.1.2
 // @description  :hapoelparty:
-// @author       DGSI
+// @author       DGSI, Stay
 // @grant        none
 // @match        https://village.cx/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=village.cx
@@ -25,7 +25,15 @@ const oestrogen = [
     [':ok:', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/48a51100-3155-45ec-b0c7-46b0ed19aea3.gif">'],
     [':rire:', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/2a9de4ae-f43a-4de2-8804-a525a477df53.gif">'],
     [':bave:', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/7c049de0-eec6-4e14-b8c7-80e566f3f171.gif">'],
-    [':malade:', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/7da97f26-9433-4cdd-9503-2a6efb2610fa.gif">']
+    [':malade:', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/7da97f26-9433-4cdd-9503-2a6efb2610fa.gif">'],
+    [':fier:', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/c5cc6b05-d00e-423f-98e2-3a76ab74587a.gif">'],
+    [':d)', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/05544dea-b0f6-4d73-ace6-54261ee0f66a.gif">'],
+    [':banzai:', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/2c35cf9b-26ac-45c1-9fe7-8294d53e2d7b.gif">'],
+    [':g)', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/f920f2f4-906d-43c2-9ada-40de75abf451.gif">'],
+    [':p)', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/1ed644b6-20ed-4785-9c13-51a3ea641b19.gif">'],
+    [':ange:', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/9284eaea-cca1-4c19-9252-dffac7ec5f43.gif">'],
+	[':-)', '<img class="picture" src="https://pub-edb0c2460d754c5eb19e4f23b232496e.r2.dev/8021fb10-1c55-4afd-a249-f129b5a7c146.gif">']
+
 ]
 
 // Petite vérif des doublons in the doubt
@@ -43,4 +51,6 @@ window.FormData = class extends FormData {
         }
     }
 }
+})();
+
 
