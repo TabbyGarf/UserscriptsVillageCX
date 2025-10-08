@@ -148,7 +148,7 @@
     Object.assign(button.style, {
         position: 'fixed',
         top: '2px',
-        left: '45px',
+        left: '50px',
         zIndex: 9999,
         padding: '10px 10px',
         borderRadius: '8px',
